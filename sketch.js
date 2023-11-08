@@ -71,7 +71,7 @@ function draw() {
   rectMode(CORNER)
   text(textpart, 72, 10, 600, 600);
   index+=0.1
-  if (index >383) index =0  // length of the story
+  if (index >399) index =0  // length of the story
 
 
   }
