@@ -67,9 +67,9 @@ function draw() {
   textSize(36);
   textWrap(CHAR);
   if(playing){
-  let textpart = yhy.substring(floor(index),floor(index)+16)
+  let textpart = yhy.substring(floor(index),floor(index)+12)
   rectMode(CORNER)
-  text(textpart, 0, 10, 600, 600);
+  text(textpart, 72, 10, 600, 600);
   index+=0.1
   if (index >383) index =0  // length of the story
 
